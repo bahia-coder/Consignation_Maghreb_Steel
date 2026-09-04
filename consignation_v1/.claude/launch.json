@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "consignapp-backend",
+      "runtimeExecutable": "mvn",
+      "runtimeArgs": ["-q", "-o", "-f", "backend/pom.xml", "spring-boot:run"],
+      "port": 8082
+    },
+    {
+      "name": "consignapp-frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start", "--prefix", "frontend"],
+      "port": 3000
+    }
+  ]
+}

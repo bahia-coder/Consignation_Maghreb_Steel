@@ -1,1 +1,8 @@
 consignation_v1/backend/src/main/resources/application.properties
+**/node_modules/
+**/target/
+**/application.properties
+**/.history/
+**/target/
+**/node_modules/
+**/application.properties

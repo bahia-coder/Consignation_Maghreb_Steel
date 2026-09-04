@@ -1,0 +1,16 @@
+package com.consignation.app.model;
+
+public enum TypeAction {
+    DEMANDE_CREEE,
+    DEMANDE_ACCEPTEE,
+    DEMANDE_REJETEE,
+    PLAN_EN_COURS,
+    ENERGIE_AJOUTEE,
+    ENERGIE_MODIFIEE,
+    ENERGIE_SUPPRIMEE,
+    ORDRE_MODIFIE,
+    SOUMIS_VALIDATION,
+    PLAN_VALIDE,
+    PLAN_REJETE,
+    PLAN_TESTE
+}
